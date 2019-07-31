@@ -1,0 +1,123 @@
+html , body {
+    margin: 0px;
+    padding: 0px;
+}
+.site-header {
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 64px;
+    font-size: 14px;
+    position: fixed;
+    border-bottom: solid #e1e1e1 1px;
+    background: #fff;
+}
+
+.site-header .site-nav {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 64px;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.site-header .site-nav .site-bzy-logo {
+    width: 124px;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.site-header .site-nav .site-bzy-logo a {
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    vertical-align: middle;
+    background: url(images/bzy-logo.png) center no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.site-header .site-nav>li {
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+li, ol, ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    color: #58666e;
+    text-align: left!important;
+    padding: 20px 30px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2222;
+}
+
+.content{
+    padding: 100px 10px 40px 10px ;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.row{
+    padding-bottom: 30px;
+}
+
+.master{
+    border-left: 5px solid #d9534f;
+}
+
+.master h4{
+    font-weight: bold;
+}
+
+
+.desc{
+    border-left: 5px solid #5cb85c;
+}
+
+.desc h4{
+    font-weight: bold;
+}
+
+
+/* 说明提示 */
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #aa6708;
+}
+
+.bs-callout {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    border-left-color: #ce4844;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout code {
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 18px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+}
+.bs-callout p{
+    margin: 5px;
+    padding: 0px;
+}
+
